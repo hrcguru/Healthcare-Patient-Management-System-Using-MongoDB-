@@ -790,6 +790,71 @@
   });
 </script>
 
+         <!--====================================================
+                        PDF DOWNLOAD
+    ======================================================-->  
+<section class="resume-section py-5 d-flex align-items-center" id="resume-download">
+    <div class="container text-center">
+        <h2 class="mb-3 display-4 fw-bold">My Resume</h2>
+        <div class="heading-underline mx-auto mb-4"></div>
+
+        <a href="PDF/Hritik_Jain_Resume.pdf" download="Hritik_Jain_Resume.pdf" class="btn btn-primary btn-lg custom-download-btn">
+            <i class="fa fa-download me-2"></i> Download My Resume
+        </a>
+    </div>
+</section>
+
+<style>
+    /* Add this CSS to your main stylesheet (e.g., style.css) */
+    .resume-section {
+        background-color: #f8f9fa; /* Light background for a clean look */
+        padding-top: 60px; /* Adjust top padding */
+        padding-bottom: 60px; /* Adjust bottom padding */
+    }
+
+    .resume-section h2 {
+        font-size: 2.8rem; /* Slightly smaller for a modern feel */
+        color: #343a40; /* Darker text for better contrast */
+        margin-bottom: 1rem !important; /* Reduced space below heading */
+    }
+
+    .heading-underline {
+        width: 60px; /* Shorter line for a refined look */
+        height: 4px; /* Slightly thicker for emphasis */
+        background-color: #007bff; /* A standard blue that complements Bootstrap */
+        margin: 0.75rem auto 2.5rem auto; /* Reduced margin below line */
+        border-radius: 2px;
+    }
+
+    .custom-download-btn {
+        padding: 14px 28px; /* Slightly adjusted padding */
+        font-size: 1.15rem; /* Slightly smaller font size */
+        border-radius: 50px; /* Pill-shaped button for modern aesthetic */
+        background-image: linear-gradient(to right, #007bff 0%, #0056b3 100%); /* Gradient for depth */
+        border: none;
+        box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3); /* Soft shadow */
+        transition: all 0.3s ease;
+        text-transform: uppercase; /* Uppercase text for impact */
+        letter-spacing: 1px;
+    }
+
+    .custom-download-btn:hover {
+        transform: translateY(-3px); /* Subtle lift effect on hover */
+        box-shadow: 0 8px 15px rgba(0, 123, 255, 0.4); /* Enhanced shadow on hover */
+        background-image: linear-gradient(to right, #0056b3 0%, #007bff 100%); /* Reverse gradient on hover */
+    }
+
+    .custom-download-btn .fa-download {
+        margin-right: 0.6rem; /* Adjusted icon spacing */
+        font-size: 1.1em; /* Ensure icon is proportionate */
+    }
+
+    /* Override Bootstrap margin-top for the button if needed (e.g., if mt-4 is too much) */
+    .text-center .mt-4 {
+        margin-top: 2rem !important; /* Adjusted margin to control space */
+    }
+</style>
+
     <!-- Global javascript -->
     <script src="js/jquery/jquery.min.js"></script>
     <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
